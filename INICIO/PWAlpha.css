@@ -1,0 +1,297 @@
+  
+html {
+-webkit-text-size-adjust: 100%
+}
+    
+    
+p {
+  text-align: center;
+}
+    
+
+body {
+
+    background-color: #071c44a1;
+    text-align: center;
+    color:white;
+    
+    }
+    
+    .banner {
+    text-align: left;
+    font-size: 20px;
+    
+
+    }
+
+
+    
+    header {
+      background-color: #ffffff;
+      color: #ffffff;
+      padding: 20px;
+      text-align: left;
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    header {
+        background-image: url("");
+        background-size: cover;
+        background-position: left;
+        background-repeat: no-repeat;
+        background-color: #0b132c;
+      }
+      
+   
+    
+    header {
+        background-color: #0b132c;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        nav{
+          color: white;
+        }
+    }
+    
+    h1 {
+        font-size: 36px;
+        color: #ffffff;
+        font-weight: bold;
+        text-align: CENTER;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+    
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin-bottom: 50px;
+    }
+    
+    .producto {
+        margin: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        overflow: hidden;
+        width: 250px;
+    }
+    
+    .producto img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.5s;
+    }
+    
+    .producto:hover img {
+        transform: scale(1.1);
+    }
+    
+    .producto h3 {
+        background-color: #333;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+        padding: 10px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    
+    .contacto {
+        background-color: #f2f2f2;
+        padding: 50px;
+        text-align: right;
+        margin-bottom: 75px;
+    }
+    
+    .contacto h2 {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+    
+    .formulario {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .formulario label {
+        display: block;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: left;
+        width: 100%;
+    }
+    
+    .formulario input {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    
+    .formulario input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+        margin-top: 20px;
+        border: none;
+        cursor: pointer;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        padding: 20px;
+        background-color: hsla(220, 47%, 16%, 0.747);
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+        color: white
+      }
+      
+      .logo {
+        margin-right: 20px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
+      .logo img {
+        justify-content: center;
+        align-items: center;
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+      }
+      
+      h1 {
+        margin: 0;
+        font-size: 30px;
+        text-align: center;
+      }
+      
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      
+      nav li {
+        margin-right: 20px;
+      }
+      
+      nav a {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 16px;
+      }
+      
+      footer {
+        background-color:hsla(220, 47%, 16%, 0.747);
+        color: #ffffff;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+
+
+      } 
+
+        
+      
+
+        h3 {
+        color: #ffffff;
+
+
+    }
+
+        .p2 {
+            text-align: left;
+        }
+    
+   
+       
+        p {
+            text-align: left;
+
+        }
+        
+        .atras {
+        text-align: left;
+
+
+        }
+        .logobajo {
+        align-items: center;
+        text-align: center;
+        display: table;
+        }
+        
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+          }
+      
+          .form-group {
+            margin-bottom: 10px;
+          }
+      
+          .form-group label {
+            display: block;
+            margin-bottom: 5px;
+          }
+      
+          .form-group input[type="text"],
+          .form-group input[type="password"] {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+          }
+      
+          .form-group button {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 3px;
+            cursor: pointer;
+          }
+          
+.p5 {
+ text-align: center;
+ }
+  
+.centrado {
+  text-align: center;
+
+}
+
+button{ 
+ background-color: white;
+ color:black
+ 
+}
